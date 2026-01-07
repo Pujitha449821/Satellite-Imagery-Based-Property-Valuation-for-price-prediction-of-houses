@@ -9,13 +9,11 @@ price prediction compared to tabular-only models.
 ---
 
 ## Repository Contents
-├── notebook.ipynb
+├── 22323041_Code.ipynb
 ├── README.md
 ├── report.pdf
 ├── outputs/
 │ └── 22323041_final.csv
-├── gradcam_outputs/
-│ └── gradcam_*.png
 
 
 ---
@@ -37,6 +35,9 @@ API based on latitude and longitude coordinates. Due to API rate limits and time
 constraints, images were collected for a representative random subset of 500
 properties. These images capture neighborhood-level visual context such as
 buildings, roads, greenery, and water bodies.
+
+Note: The Mapbox access token used for satellite image retrieval has been
+removed from the code for security reasons.
 
 ---
 
